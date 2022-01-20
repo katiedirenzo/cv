@@ -1,0 +1,113 @@
+<!DOCTYPE html> <!-- version of html-->
+<html lang="en" dir="ltr">
+<!-- HEAD holds information about the page, ie) title-->
+
+<head>
+  <meta charset="utf-8">
+  <!-- these meta elements give extra data. this one is saying that all the text is encoded with utf 8, see fileformat site. Mojibake. use utf 8
+    can include description, keywords, author, viewport, etc. that would be "name=" description for example is what shows when you google it, the little blurb! see meta bookmark-->
+  <title>Katie's Personal Site</title>
+</head>
+
+<body>
+  <table cellspacing="20">
+    <tr>
+      <td><img src="katieVolley.jpeg" alt="katie profile picture" height="175"> <!-- src = source. alt = alternative text if the browser can't render the image, this is something google looks at to pull searches. ie) burrito recipes, make this text about burritos. to add a path: desktop/ crop.circle.imageio.com--></td>
+      <td><h1>Katie DiRenzo</h1> <!-- Atom Beautify package, beautify will indent everything where it should be-->
+      <p>Current accountant, <em>aspiring software engineer</em></p> <!-- em or i tag for italics, but use em. b for bold, but use strong tag instead. to google, search italicize html mdn (mozilla) -->
+      <p>Looking to switch careers from accounting to software engineering.</p></td>
+    </tr>
+  </table>
+  <hr>
+  <h3>Education</h3>
+  <ul> <!-- li = list, ul = unordered list ol = ordered list-->
+    <li><a href="https://www.sacredheart.edu/">Sacred Heart University</a>
+      <ul>
+        <li>Undergraduate: 2012 - 2016
+          <ul>
+            <li>Bachelors in Finance</li>
+            <li>Bachelors in Accounting</li>
+          </ul>
+        </li>
+        <li>Graduate: 2017
+          <ul>
+            <li>Masters in Accounting</li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+  <hr>
+  <h3>Work Experience</h3>
+   <!-- lets create a table to make this look better -->
+  <table cellspacing="10">
+    <thead> <!-- don't need thead necessarily, it will know with "th". but if you want to format it an extra certain way, will need thead/body/foot -->
+      <tr>
+        <th>Dates</th>
+        <th>Work</th>
+      </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>2018-2020</td>
+      <td>Tax Associate at PwC</td>
+    </tr>
+    <tr>
+      <td>2020-2022</td>
+      <td>Tax Senior at CohnReznick</td>
+    </tr>
+    </tbody>
+  </table>
+  <hr>
+  <h3>Skills</h3>
+  <table cellspacing="10"> <!-- can next a table inside of a table -->
+    <tr>
+      <td>  <table>
+        <tr>
+          <td>Excel </td>
+          <td>&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+        </tr>
+        <tr>
+          <td>GoSystem </td>
+          <td>&#9733; &#9733; &#9733; &#9733; &#9733</td>
+        </tr>
+        <tr>
+          <td>Alteryx</td>
+          <td>&#9733; &#9733; &#9734 ☆ ☆</td>
+        </tr>
+        <tr>
+          <td>HTML</td>
+          <td>&#9733; ☆ ☆ ☆ ☆</td>
+        </tr>
+
+        </table>
+      <td>
+        <table>
+          <tr>
+            <td>Excel </td>
+            <td>&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+          </tr>
+          <tr>
+            <td>GoSystem </td>
+            <td>&#9733; &#9733; &#9733; &#9733; &#9733</td>
+          </tr>
+          <tr>
+            <td>Alteryx</td>
+            <td>&#9733; &#9733; &#9734 ☆ ☆</td>
+          </tr>
+          <tr>
+            <td>HTML</td>
+            <td>&#9733; ☆ ☆ ☆ ☆</td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <hr>
+  <a href="hobbies.html">My Hobbies</a>
+  <p><a href="contactInfo.html">Contact Me</a></p>
+
+</body>
+
+</html>
